@@ -77,6 +77,8 @@ Geometry Object:
 
 1. FeatureCollection vs. GeometryCollection?
 
+2. What does it mean when a LineString has many arrays of coordinates? (e.g. 4 in the example above)
+
 
 #### Sources:
 
