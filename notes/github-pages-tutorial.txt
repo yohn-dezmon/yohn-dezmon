@@ -1,2 +1,9 @@
 https://docs.github.com/en/pages
 
+if you define pages with `.md`, they will show up with `.html` URLs.
+
+e.g. https://yohn-dezmon.github.io/yohn-dezmon/ == homepage.
+https://yohn-dezmon.github.io/yohn-dezmon/GeoJSON.html == URL for GeoJSON.md 
+
+
+
