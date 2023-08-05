@@ -80,6 +80,9 @@ Geometry Object:
 2. What does it mean when a LineString has many arrays of coordinates? (e.g. 4 in the example above)
 - those are the points that define the line. Each point is connected by a straight line.
 
+3. How does GeoJSON work with dates? Can a Feature have date properties? How is time
+series data organized?
+
 
 #### Sources:
 

@@ -22,9 +22,23 @@ We'll be dealing with shapefile (.shp) and GeoJSON (.geojson) which
 are file types that can house vector data such as geometric objects
 mentioned above.
 
-
+```
 $ pip install geopandas 
+```
 
+4 main geometric attributes for `GeoSeries`:
+1. `Area` (for polygons/multipolygons) --  `df.area`
+2. `Boundary` (for polygons/multipolygons) -- `df.boundary`
+3. `Centroid` -- returns the center of a polygon `df.centroid`
+4. `Distance` -- `df.distance(geometry)` -- often used in combination with centroid.  
+e.g. you would get the centroid of one row's geometry, then calculate the distance to the centroids of all other rows.
+
+Other (geometric operations)[https://geopandas.org/en/stable/docs/user_guide/geometric_manipulations.html].
+
+
+Filtering spatial data:
+1. `within()` -- checks if a point is within a polygon
+2. `contains()` -- checks if a polygon contains a point
 
 
 #### Questions:
@@ -32,7 +46,11 @@ $ pip install geopandas
 
 2. What does a GeoJSON file look like?
 
+3. MULTILINESTRING vs. LINESTRING?
 
+4. does `df.centroid` return the center of a line? How is that determined?
+
+5. 
 
 #### Sources:
 
