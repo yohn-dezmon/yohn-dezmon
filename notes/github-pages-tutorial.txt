@@ -1,5 +1,8 @@
 https://docs.github.com/en/pages
 
+following instructions from: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+* going to publish when changes are committed to `main`
+
 if you define pages with `.md`, they will show up with `.html` URLs.
 
 e.g. https://yohn-dezmon.github.io/yohn-dezmon/ == homepage.
