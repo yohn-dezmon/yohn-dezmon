@@ -11,16 +11,16 @@ You can have multiple GeoSeries in a GeoDataframe, but only one
 GeoSeries can be the **active** geometry. 
 
 Active geometry:
-- all geometric operations applied to a GeoDataframe operate on this active 
+- All geometric operations applied to a GeoDataframe operate on the active 
 column.
--  When reading in a shapefile or a GeoJSON file, GeoPandas knows which column is a GeoSeries
-- it labels this column “geometry”, and automatically set it to the active column.
-- GeoDataFrame.set_geometry() can be used to manually set the active column
-- GeoDataFrame.geometry -- tells you what the active column is
+- When reading in a shapefile or a GeoJSON file, GeoPandas knows which column is a GeoSeries.
+- It labels this column `geometry`, and automatically sets it to the active column.
+- `GeoDataFrame.set_geometry()` can be used to manually set the active column.
+- `GeoDataFrame.geometry` -- tells you what the active column is.
 
-We'll be dealing with shapefile (.shp) and GeoJSON (.geojson) which 
-are file types that can house vector data such as geometric objects
-mentioned above.
+Shapefile (.shp) and GeoJSON (.geojson) are file types that can house vector data.
+
+#### How to install GeoPandas
 
 ```
 $ pip install geopandas 
@@ -33,7 +33,7 @@ $ pip install geopandas
 4. `Distance` -- `df.distance(geometry)` -- often used in combination with centroid.  
 e.g. you would get the centroid of one row's geometry, then calculate the distance to the centroids of all other rows.
 
-Other (geometric operations)[https://geopandas.org/en/stable/docs/user_guide/geometric_manipulations.html].
+Other [geometric operations](https://geopandas.org/en/stable/docs/user_guide/geometric_manipulations.html).
 
 
 Filtering spatial data:
@@ -50,7 +50,6 @@ Filtering spatial data:
 
 4. does `df.centroid` return the center of a line? How is that determined?
 
-5. 
 
 #### Sources:
 
