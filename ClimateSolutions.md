@@ -9,7 +9,7 @@
 #### Companies 
 
 1. [Gro Intelligence](https://www.gro-intelligence.com/)
-2. [regrow](https://www.regrow.ag/)
+2. [Regrow Ag](https://www.regrow.ag/)
 
 ## Making Renewable Energy Development More Efficient 
 
