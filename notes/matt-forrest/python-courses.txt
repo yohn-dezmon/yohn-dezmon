@@ -1,0 +1,15 @@
+https://forrest.nyc/geospatial-python-courses/
+
+GeoPython -- Univeristy of Helsinki (beginner) https://geo-python-site.readthedocs.io/en/latest/course-info/learning-goals.html
+^ this looks too basic for me.
+
+Automating GIS processes -- University of Helsinki 
+
+
+Geopandas documentation !!!! 
+
+
+Leafmap -- documentation, geospatial tool kit.
+Geospatial Data Science Course: https://darribas.org/gds_course/content/home.html
+Geographic Data Science with Python: https://geographicdata.science/book/intro.html
+

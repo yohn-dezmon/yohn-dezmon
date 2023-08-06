@@ -84,6 +84,9 @@ Geometry Object:
 series data organized?
 
 
+4. What is a MultiPolygon?
+
+
 #### Sources:
 
 1. [GeoJSON RFC](https://datatracker.ietf.org/doc/html/rfc7946) 

@@ -1,8 +1,8 @@
 ### John's Geospatial Journey 🗺️🌏
 
 #### GeoSpatial Tools
-[GeoPandas Notes](GeoPandas.md)  
-[GeoJSON Notes](GeoJSON.md)  
+[GeoPandas Notes](GeoPandas/GeoPandas_Summary.md)  
+[GeoJSON Notes](GeoJSON/GeoJSON_Summary.md)  
 [CRS Notes](CRS.md)
 
 #### Climate Solutions

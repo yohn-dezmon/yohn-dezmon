@@ -41,6 +41,30 @@ Filtering spatial data:
 2. `contains()` -- checks if a polygon contains a point
 
 
+```
+points_within_poly = df_1[df_1.geometry.within(df_2['geometry'][0])]
+```
+
+```
+mask = [df_1['geometry'][0].contains(x) for x in df_2['geometry']]
+points_within_poly = df_1[mask]
+```
+
+#### Plotting using GeoPandas
+
+```
+df_1.plot(figsize=(10, 15), alpha=0.5, edgecolor='k')
+
+for idx, row in df_1.iterrows():
+    plt.annotate(text=['area'], xy=(row['centroid'].x, row['centroid'].y), 
+        horizontalalignment='center', color = 'k')
+```
+
+* adding basemaps... (ensure the basemap uses the same CRS)
+* interactive maps (`explore()`) -- `folium.Map`
+
+
+
 #### Questions:
 1. What if there are various geometry columns, how does GeoPandas name them?
 
