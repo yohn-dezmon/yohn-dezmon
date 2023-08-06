@@ -27,11 +27,11 @@ $ pip install geopandas
 ```
 
 4 main geometric attributes for `GeoSeries`:
-1. `Area` (for polygons/multipolygons) --  `df.area`
-2. `Boundary` (for polygons/multipolygons) -- `df.boundary`
-3. `Centroid` -- returns the center of a polygon `df.centroid`
+1. `Area` (for polygons/multipolygons) --  `df.area`. Area is a float/numerical value.
+2. `Boundary` (for polygons/multipolygons) -- `df.boundary`. Boundaries are  `MULTILINESTRING `geometries.
+3. `Centroid` -- returns the center of a polygon `df.centroid`. Centroids are `POINT` geometries.
 4. `Distance` -- `df.distance(geometry)` -- often used in combination with centroid.  
-e.g. you would get the centroid of one row's geometry, then calculate the distance to the centroids of all other rows.
+e.g. you would get the centroid of one row's geometry, then calculate the distance to the centroids of all other rows. Distance is a float/numerical value.
 
 Other [geometric operations](https://geopandas.org/en/stable/docs/user_guide/geometric_manipulations.html).
 
@@ -60,10 +60,17 @@ for idx, row in df_1.iterrows():
         horizontalalignment='center', color = 'k')
 ```
 
-* adding basemaps... (ensure the basemap uses the same CRS)
 * interactive maps (`explore()`) -- `folium.Map`
 
+##### Adding basemaps 
+When adding a basemap, ensure that the two geometries are using the same CRS.  
+To layer multiple `GeoSeries` on top of each other, you need to use one plot as 
+an axis for the other: 
 
+```
+ax = gdf["geometry"].plot()
+gdf["centroid"].plot(ax=ax, color="black")
+```
 
 #### Questions:
 1. What if there are various geometry columns, how does GeoPandas name them?
@@ -74,9 +81,15 @@ for idx, row in df_1.iterrows():
 
 4. does `df.centroid` return the center of a line? How is that determined?
 
+5. When is buffer useful in geospatial analysis? (radius)
+
+
 
 #### Sources:
 
 1. https://www.learndatasci.com/tutorials/geospatial-data-python-geopandas-shapely/
 
 2. https://medium.com/@haniszulaikha/starter-tutorial-on-geopandas-d3ede5cc16e9
+
+3. https://geopandas.org/en/stable/getting_started/introduction.html
+

@@ -1,7 +1,9 @@
 # GeoJSON
 
 
-A GeoJSON object may represent a region of space (a Geometry), a spatially bounded entity (a Feature), or a list of Features (a FeatureCollection). 
+A GeoJSON object may represent a region of space (a Geometry), a spatially bounded entity (a Feature), or a list of Features (a FeatureCollection).
+
+GeoJSON files have the file extension `.geojson`.
 
 Geometry types:
 - `Point`, `LineString`, `Polygon`, `MultiPoint`, `MultiLineString`, `MultiPolygon`, and `GeometryCollection`.
@@ -22,44 +24,9 @@ Example **FeatureCollection**:
            "properties": {
                "prop0": "value0"
            }
-       }, {
-           "type": "Feature",
-           "geometry": {
-               "type": "LineString",
-               "coordinates": [
-                   [102.0, 0.0],
-                   [103.0, 1.0],
-                   [104.0, 0.0],
-                   [105.0, 1.0]
-               ]
-           },
-           "properties": {
-
-               "prop0": "value0",
-               "prop1": 0.0
-           }
-       }, {
-           "type": "Feature",
-           "geometry": {
-               "type": "Polygon",
-               "coordinates": [
-                   [
-                       [100.0, 0.0],
-                       [101.0, 0.0],
-                       [101.0, 1.0],
-                       [100.0, 1.0],
-                       [100.0, 0.0]
-                   ]
-               ]
-           },
-           "properties": {
-               "prop0": "value0",
-               "prop1": {
-                   "this": "that"
-               }
-           }
-       }]
-   }
+       }, ...
+       ]
+}
 ```
 
 A third party data source may return a single `FeatureCollection`, which in turn contains many `Features`. 
@@ -73,6 +40,9 @@ Geometry Object:
 - The value of the type member must be one of the seven geometry types.
 - All Geometry objects, except for GeometryCollection, must have a member with the name `coordinates`. Coordinates must be an array. The structure of the coordinates is determined by the Geometry type. Empty coordinates MAY be interpreted as NULL.
 
+Properties:
+- within each feature the `properties` object determines the column names and values when you read GeoJSON into a GeoDataframe. The final column will be `geometry` which is determined by the GeoJSON `geometry` field/member. 
+
 #### Questions:
 
 1. FeatureCollection vs. GeometryCollection?
@@ -85,6 +55,7 @@ series data organized?
 
 
 4. What is a MultiPolygon?
+- I think these are the gemoetries used to create basemaps?
 
 
 #### Sources:
