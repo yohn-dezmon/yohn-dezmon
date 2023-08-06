@@ -18,7 +18,7 @@
 1. [Paces](https://www.paces.com/)
 2. [Nira Energy](https://www.niraenergy.com/)
 
-## Solar SaaS (Making Solar Operations more Efficient)
+## Solar SaaS (Making Solar Operations More Efficient)
 
 #### Companies 
 1. [Raptor Maps](https://raptormaps.com/)
