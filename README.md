@@ -1,9 +1,12 @@
 ### John's Geospatial Journey 🗺️🌏
 
-
+#### GeoSpatial Tools
 [GeoPandas Notes](GeoPandas.md)  
 [GeoJSON Notes](GeoJSON.md)  
-[CRS Notes](CRS.md)  
+[CRS Notes](CRS.md)
+
+#### Climate Solutions
+[Climate Solutions](ClimateSolutions.md)  
 
 <!--
 **yohn-dezmon/yohn-dezmon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
