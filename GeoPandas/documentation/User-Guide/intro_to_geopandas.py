@@ -92,9 +92,23 @@ gdf["buffered"] = gdf.buffer(10000)
 # buffering the centroid geometry by 10,000 feet 
 gdf["buffered_centroid"] = gdf["centroid"].buffer(10000)
 # saving the first plot as an axis and setting alpha to 0.5
-ax = gdf["buffered"].plot(alpha=0.5)
-# passing the first plot as an axis to the second
-gdf["buffered_centroid"].plot(ax=ax, color='red', alpha=0.5)
-# passing the first plot and setting linewidth to 0.5
-gdf["boundary"].plot(ax=ax, color="white", linewidth=0.5)
-plt.show()
+# ax = gdf["buffered"].plot(alpha=0.5)
+# # passing the first plot as an axis to the second
+# gdf["buffered_centroid"].plot(ax=ax, color='red', alpha=0.5)
+# # passing the first plot and setting linewidth to 0.5
+# gdf["boundary"].plot(ax=ax, color="white", linewidth=0.5)
+# plt.show()
+
+# GEOMETRY RELATIONS
+
+# Q: which of the buffered boroughs intersect with the original geometry of brooklyn
+# i.e. which of the boundaries are within 10,000 feet from brooklyn
+# first we get Brooklyn's geometry value
+brooklyn = gdf.loc["Brooklyn", "geometry"]
+# which of the geometries in gdf["buffered"] intersects it.
+print(gdf["buffered"].intersects(brooklyn))
+
+# Q: which points are entirely within the original boroughs' polygons
+gdf["within"] = gdf["bufferred_centroid"].within(gdf)
+print(gdf["within"])
+
