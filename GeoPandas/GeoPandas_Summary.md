@@ -72,6 +72,11 @@ ax = gdf["geometry"].plot()
 gdf["centroid"].plot(ax=ax, color="black")
 ```
 
+
+#### Geometries 
+
+* all polygons/geometries are `shapely` geometry objects. [link](https://shapely.readthedocs.io/en/stable/manual.html#geometric-objects).
+
 #### Questions:
 1. What if there are various geometry columns, how does GeoPandas name them?
 
