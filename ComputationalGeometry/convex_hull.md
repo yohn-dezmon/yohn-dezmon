@@ -8,7 +8,7 @@ a convex (non-intersecting) boundary.
 Convexivity -- any line segment connecting two points within the shape lies
 entirely inside the shape. 
 
-A convex polygon has all its interior angles less than 180 degrees.
+A convex polygon has all its interior angles less than 180 degrees.  
 A concave polygon has at least one interior angle that is more than 180 degrees.
 
 
