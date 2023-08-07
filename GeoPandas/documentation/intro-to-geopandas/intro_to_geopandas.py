@@ -112,3 +112,11 @@ print(gdf["buffered"].intersects(brooklyn))
 gdf["within"] = gdf["bufferred_centroid"].within(gdf)
 print(gdf["within"])
 
+# 7:08
+gdf = gdf.set_geometry("buffered_centroid")
+ax = gdf.plot(
+    "within", legend=True, categorical=True, legend_kwds={"loc": "upper left"}
+)
+gdf["boundary"].plot(ax=ax, color="black", linewidth=0.5)
+
+
