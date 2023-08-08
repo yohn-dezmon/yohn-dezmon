@@ -16,6 +16,6 @@ You can refer to this manipulations using the language of **sets**.
 i.e. for every shape in the left GeoDataframe, this operation is executed against 
 every other shape in the right GeoDataframe (cross-join).
 
-7:46
+
 
 
