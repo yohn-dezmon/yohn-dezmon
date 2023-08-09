@@ -23,6 +23,11 @@
 #### Companies 
 1. [Raptor Maps](https://raptormaps.com/)
 
+## Renewable Energy Analytics Platforms
+
+#### Companies 
+1. [Ascend Anaalytics](https://www.ascendanalytics.com/)
+
 ## Refrigeraton and HVAC Efficiency 
 
 #### Companies 
