@@ -6,7 +6,7 @@
 [CRS Notes](CRS.md)
 
 #### Climate Solutions
-[Climate Solutions](ClimateSolutions.md)  
+[Climate Solutions](ClimateSolutions/ClimateSolutions.md)  
 
 <!--
 **yohn-dezmon/yohn-dezmon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
