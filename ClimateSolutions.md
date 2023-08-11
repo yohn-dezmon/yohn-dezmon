@@ -26,7 +26,7 @@
 ## Renewable Energy Analytics Platforms
 
 #### Companies 
-1. [Ascend Anaalytics](https://www.ascendanalytics.com/)
+1. [Ascend Analytics](https://www.ascendanalytics.com/)
 
 ## Refrigeraton and HVAC Efficiency 
 
