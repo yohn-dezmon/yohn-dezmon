@@ -8,8 +8,8 @@ chicago = read_file("data/chicago_compop.geojson")
 groceries = read_file("data/groceries.geojson")
 
 # write to files 
-# chicago.to_file("data/chicago_compop.geojson")
-# groceries.to_file("data/groceries.geojson")
+# chicago.to_file("data/chicago_compop.geojson", driver="GeoJSON")
+# groceries.to_file("data/groceries.geojson", driver="GeoJSON")
 
 # Project to crs that uses meters as distance measure
 chicago = chicago.to_crs("ESRI:102003")
