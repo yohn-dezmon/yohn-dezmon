@@ -67,7 +67,30 @@ Building Trees of Two Dimensional Data:
 - because you could be less than in one dimension and greater than in another dimension 
 - we need a total ordering for our objects
 https://youtu.be/VC1kZ42XCkY?t=161
+- have 4 neighbors (one for each direction you can go, like DFS!)
 
+https://youtu.be/vGRyb1fK-bg?t=4
+^ this is the video with quadtree explanation 
+
+Quadtree:
+- each node is a point, e.g. (point(0, 1))
+- each node has 4 children 
+- children = NW (UL), NE (UR), SW (LL), SE (LR)
+
+Insert A (-1, -1) == root.  
+Insert B (2, 2) == NE child of A.  
+Insert C (0, 1) == you go to NE of A but that's already populated, so you then see that C is the SW child of B.   
+Insert D (1, 0) == this is to the SE of C (bc the other directions for A and B area already populated).  
+Insert E (-2, -2) == SW of A.  
+
+Just like a binary search tree, insertion order determines the topology of the quadtree!  
+
+Quadtrees are spatial partitioning in disguise.  
+Hierarchical partitioning, i.e. each node "owns" 4 spaces.  
+- space is more finely divided in regions where there are more points 
+- better runtime than uniform partitioning!  
+
+https://youtu.be/vGRyb1fK-bg?t=274
 
 
 
