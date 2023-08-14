@@ -28,6 +28,8 @@
 #### Companies 
 1. [Ascend Analytics](https://www.ascendanalytics.com/)
 
+2. [EnergyHub](https://www.energyhub.com/)
+
 ## Refrigeraton and HVAC Efficiency 
 
 #### Companies 
