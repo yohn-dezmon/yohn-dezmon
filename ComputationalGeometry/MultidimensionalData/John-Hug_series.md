@@ -69,7 +69,7 @@ Building Trees of Two Dimensional Data:
 https://youtu.be/VC1kZ42XCkY?t=161
 - have 4 neighbors (one for each direction you can go, like DFS!)
 
-https://youtu.be/vGRyb1fK-bg?t=4
+https://youtu.be/vGRyb1fK-bg?t=4  
 ^ this is the video with quadtree explanation 
 
 Quadtree:
@@ -93,4 +93,10 @@ Hierarchical partitioning, i.e. each node "owns" 4 spaces.
 https://youtu.be/vGRyb1fK-bg?t=274
 
 
+https://youtu.be/D6nrGYfnWFI?t=2  
 
+2D search (rectangle search) with Quadtrees.  
+- find all of the points between ADCE that are in the box  
+- is A in side the box (at the root), no 
+- where to go from there, only the NE has a point that is in the box (out of the 4 quadrants) 
+- from B, you have to explore all of the quadrants, because they all share space with the bounding box rectangle 
