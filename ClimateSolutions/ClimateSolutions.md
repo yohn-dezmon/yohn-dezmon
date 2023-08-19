@@ -53,7 +53,7 @@
 #### Companies 
 
 1. [Alcemy](https://alcemy.tech/en/)
-
+ec5248 (new company to climate solutions)
 ## Carbon Accounting 
 
 * Monitoring forest growth for carbon credits 
