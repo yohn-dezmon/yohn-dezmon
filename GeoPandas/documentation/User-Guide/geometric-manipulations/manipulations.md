@@ -27,7 +27,22 @@ The manipulations originate from the Shapely library.
 `.unary_union`:
 - return a geometry containing the union of all geometries in the GeoSeries.
 
+### Affine Transformations
 
+`.affine_transform(self, matrix)`:
+- transform the geometries of the GeoSeries using an affine transformation matrix 
+
+`.rotate(self, angle, origin='center', use_radians=False)`:
+- rotate the coordinates of the GeoSeries 
+
+`.scale(self, xfact=1.0, yfact=1.0, zfact=1.0, origin='center')`:
+- scale geometries of the GeoSeries along each (x,y,z) dimension 
+
+`skew(self, angle, origin='center', use_radians=False)`:
+- shear/skew the geometries of the GeoSeries by angles along x and y dimensions 
+
+`translate(self, xoff=0.0, yoff=0.0, zoff=0.0)`:
+- shift the coordinates of the GeoSeries 
 
 
 #### Sources:
