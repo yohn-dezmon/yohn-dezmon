@@ -60,5 +60,23 @@ mp = circles.unary_union
 
 # the part of the unioned geometry contained in each borough
 holes = boros['geometry'].intersection(mp)
-holes.plot(cmap='viridis')
+# holes.plot(cmap='viridis')
+# plt.show()
+
+# cut out holes where the buffered circles are
+# (the points within each borough)
+boros_with_holes = boros['geometry'].difference(mp)
+boros_with_holes.plot(cmap='viridis')
 plt.show()
+
+"""
+Difference can also be represented as:
+boros.geometry - mp 
+
+I think intersection could be represented with:
+boros.geometry & mp
+"""
+
+# calculate the fractionanl area in each borough that are in the holes
+print(holes.area / boros.geometry.area)
+
