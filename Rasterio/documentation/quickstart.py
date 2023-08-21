@@ -39,4 +39,37 @@ print(dataset.transform * (dataset.width, dataset.height))
 # CRS.from_epsg(32612)
 print(dataset.crs)
 
+# you can access a given band by its index number 
+
+#(1, )
+print(dataset.indexes)
+
+band1 = dataset.read(1)
+
+# THe DatasetReader.read() method returns a numpy.ndarray 
+print(band1)
+"""
+array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], dtype=uint16)
+"""
+
+# values from the array can be addressed by their row, column index. 
+# 17491
+print(band1[dataset.height // 2, dataset.width // 2])
+
+# SPATIAL INDEXING 
+
+# Getting the value for the pixel 100 km east and 50 km south of the dataset's 
+# upper left corner 
+x, y = (dataset.bounds.left + 100000, dataset.bounds.top - 50000)
+row, col = dataset.index(x, y)
+# (1666, 3333)
+print(row, col)
+# 7566
+band1[row, col]
 
