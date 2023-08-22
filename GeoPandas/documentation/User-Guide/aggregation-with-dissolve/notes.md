@@ -14,4 +14,19 @@ In Geopandas you can aggregate **geometric features** using the `dissolve()` fun
 - it aggregates all of the rows of data in a group using `groupby.aggregate`
 - it combines those two results  
 
+### Dissolve arguments 
+
+`first`: the first row of attributes values found in the dissolve routine will be assigned to the resultant dissolved geodataframe.  
+Other supported `pandas.groupby` summary statistics:
+* `last` 
+* `min` 
+* `max`
+* `sum` 
+* `mean`
+* `median`
+* function 
+* string function name
+* list of functions/function names 
+* dict of axis labels -> functions, function names or list of such
+
 
