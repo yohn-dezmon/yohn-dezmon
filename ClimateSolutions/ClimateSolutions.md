@@ -61,3 +61,11 @@ ec5248 (new company to climate solutions)
 #### Companies 
 
 1. [Chloris Geospatial](https://www.chloris.earth/)
+
+## Storage/Batteries 
+
+#### Companies 
+
+* using bricks to convert electricity into heat, which can then be converted back to energy on demand (energy storage)
+
+1. [Rondo](https://rondo.com/)
