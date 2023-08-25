@@ -5,4 +5,5 @@ GeoPandas/documentation/User-Guide/mapping-and-plotting/data/*
 GeoPandas/documentation/User-Guide/geometric-manipulations/data/*
 GeoPandas/documentation/User-Guide/aggregation-with-dissolve/data/*
 GeoPandas/documentation/User-Guide/merging-data/data/*
-GeoPandas/documentation/User-Guide/interactive-mapping/*
+GeoPandas/documentation/User-Guide/interactive-mapping/data/*
+GeoPandas/documentation/User-Guide/projections/data/*
