@@ -9,3 +9,4 @@ GeoPandas/documentation/User-Guide/interactive-mapping/data/*
 GeoPandas/documentation/User-Guide/projections/data/*
 GeoPandas/documentation/User-Guide/sampling-points/data/*
 GeoPandas/project-nyc-trees/data/*
+GeoPandas/parquet-video/data/*
