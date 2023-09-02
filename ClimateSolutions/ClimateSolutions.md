@@ -57,10 +57,12 @@ ec5248 (new company to climate solutions)
 ## Carbon Accounting 
 
 * Monitoring forest growth for carbon credits 
+* Decarbonizing companies' supply chains
 
 #### Companies 
 
 1. [Chloris Geospatial](https://www.chloris.earth/)
+2. [Carbon Chain](https://www.carbonchain.com/)
 
 ## Storage/Batteries 
 
