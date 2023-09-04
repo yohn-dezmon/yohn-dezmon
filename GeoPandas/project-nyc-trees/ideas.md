@@ -27,3 +27,6 @@ What are some geospatial questions I could analyze with GeoPandas:
 - they can cause distortions as you move away from the equator and Prime Meridian. 
 - To mitigate these distortions, especially for more localized maps and analyses, projected CRSs are often used.
 - WGS84 is a geographic CRS
+
+2. can we create lines from a bunch of points? If we give each point a buffer, we could try to find the longest lines of trees in NYC! 
+
