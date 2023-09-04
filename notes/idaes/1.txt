@@ -1,0 +1,3 @@
+Let's store all of the data we ever download for geospatial projects in one place on our computer.
+I think for now, Postgres with PostGIS makes sense.
+We can explore other options though as well.
