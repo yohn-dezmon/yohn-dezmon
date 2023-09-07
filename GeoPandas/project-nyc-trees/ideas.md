@@ -2,7 +2,8 @@ Use a jupyter notebook to do an analysis of a given dataset.
 Try to utilize stuff from every aspect of the User Guide.
 Maybe use scikit-learn to do some ML (use your notes from the ML course you took).  
 
-
+* It may be easier to do the points --> lines transformation within PostGIS! 
+* Let's try to get PostGIS set up with this project...
 
 
 ### Data Sources
