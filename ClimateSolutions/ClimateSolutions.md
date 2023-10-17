@@ -71,3 +71,11 @@ ec5248 (new company to climate solutions)
 * using bricks to convert electricity into heat, which can then be converted back to energy on demand (energy storage)
 
 1. [Rondo](https://rondo.com/)
+
+## Water Risk 
+
+* Software for enterprises to measure, respond and report on increasingly changing water risk.
+
+#### Companies 
+
+1. [Waterplan](waterplan.com)
