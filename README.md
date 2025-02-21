@@ -17,8 +17,8 @@ dbt course I worked through:
 
 Exercises from a Machine Learning Course I took:  
 - [DBSCAN Exercise](https://github.com/yohn-dezmon/dbscan-outlier-exercise) 
-- [Seaborn Exercise](https://github.com/yohn-dezmon/seaborn-exercise) -- data viz library  
-- [KMeans Exercise](https://github.com/yohn-dezmon/kmeans-exercise) -- clustering algorithm * important for geospatial applications  
+- [Seaborn Exercise](https://github.com/yohn-dezmon/seaborn-exercise) 
+- [KMeans Exercise](https://github.com/yohn-dezmon/kmeans-exercise) 
 - [Naive Bayes NLP Exercise](https://github.com/yohn-dezmon/nlp-exercise)  
 - [Supervised Learning capstone](https://github.com/yohn-dezmon/supervised-learning-capstone)   
 - [Support Vector Machine Exercise](https://github.com/yohn-dezmon/svm-exercise)   
