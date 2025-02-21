@@ -1,4 +1,0 @@
-Let's finish the GeoPandas User Guide then do a project to show that 
-we know how to use GeoPandas. 
-
-

@@ -1,3 +1,0 @@
-# TileDB
-
-What is TileDB?

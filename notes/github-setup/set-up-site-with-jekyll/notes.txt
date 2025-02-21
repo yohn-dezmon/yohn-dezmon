@@ -1,1 +1,0 @@
-jekyll is a static site generator.
